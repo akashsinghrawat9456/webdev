@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+</head>
+<body>
+    <h1> Form to apply for hero</h1>
+    <form action="post">
+    
+        <div>
+        <label for="usernameid">Username:</label>
+            <input type="text" name="username" id="usernameid" placeholder="Enter your username">
+    </div>
+        <div>
+            <label for="gendername">gender:</label>
+            <input type="radio" name="gendername " id="male" >
+            <label for="male">male</label>
+            <input type="radio" name="gendername " id="female" >
+            <label for="female">female</label>
+        </div>
+        <div><input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">Subscribe to our newsletter</label>
+            <label for="comment">enter your comment </label>
+        </div> 
+            <div>
+        <textarea name="comment" rows="4" cols="50" placeholder="Enter your comment here"></textarea>
+    </div>    
+    <div>
+        <label for="fruits">select your favorite fruit</label>
+        <br><select name="fruits" id="fruits">
+            <option value="apple">apple</option>
+            <option value="banana">banana</option>
+            <option value="cherry">cherry</option>
+        </select>
+    </div>
+    </form>
+</body>
+</html>
