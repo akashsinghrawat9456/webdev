@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: blue;
+        }
+        /* the specificity of this selector is 10 */
+        .h1{
+            color: red;
+        }
+        /* the specificity of this selector is 10 */
+        .h1{
+            color:aqua;
+        }
+        /* the specificity of this selector is 10  but its in last that's why it will be chosen */
+        .h1{
+            color:brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- the specifity of this inline css is 1000 -->
+    <h1 class="h1" style="color: black;">hello </h1>
+</body>
+</html>
