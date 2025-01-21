@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            border: 2px solid black;
+            box-sizing: border-box;
+            /* for constant width size */
+            width: 80vw;
+            margin: auto;
+            background-color: aquamarine;
+
+        }
+
+        .container {
+            border: 2px solid black;
+            box-sizing: border-box;
+            width: 80vw;
+            /* for constant height size */
+            height: 80vh;
+            /* brings to center */
+            margin: 23px auto;
+            background-color: aquamarine;
+            text-overflow: clip;
+            overflow: hidden;
+            min-height: 80vh;
+        }
+
+        .container p {
+            /* size increase in times in context of container */
+            font-size: 2em;
+
+        }
+        .cont{border:2px solid black;
+            margin: 23px auto;
+            color: red;
+            background-color: yellow;
+          /* vmin is for minimum height like in laptop height and in phone width; */
+            width: 100vmin;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=" box">
+        this is a box
+    </div>
+    <div class="container"> 
+        <p>
+
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias similique consequatur atque voluptatibus
+            quisquam nam odio eum recusandae, vero quibusdam dolores quas sed officia voluptas accusamus tempora harum,
+        </p>
+        deserunt necessitatibus labore earum officiis excepturi.
+    </div>
+    <div class="cont">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, fugit?
+    </div>
+</body>
+
+</html>
